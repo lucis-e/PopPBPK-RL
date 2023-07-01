@@ -1,7 +1,7 @@
 # Módulo de Python para las posibles funciones de recompensa comparadas en el estudio.
 # Dos posibles funciones de recompensa:
 #   - Planificación multiobjetivo: Función de utilidad (util_func)
-#   - Planificación monoobjetivo: Función basada en distancias planares cuadráticas (euclid_func)
+#   - Planificación multiobjetivo: Función basada en distancias planares cuadráticas (euclid_func)
 #-----------------------------------------------------------------------------------------------------------------
 
 import numpy as np
