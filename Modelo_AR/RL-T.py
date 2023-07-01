@@ -84,16 +84,9 @@ def q_learning_with_table(statemap, experiences, y, lr, num_episodes=500, num_ex
 
 q_table, q_tr = q_learning_with_table(states, data, y = 0.4, lr = 0.4)
 
-with open(out + f"holisRE_0.4_0.4.pickle", "wb") as f:
-    pickle.dump(q_tr, f)
-
-#with open(out + f"holis.pickle", "wb") as f:
-#    pickle.dump(q_tr, f)
-
-
 fig = plt.figure(figsize = (12,5))
 ax = fig.add_subplot(1,1,1)
 ax.plot(q_tr)
 ax.set_xlabel('Episode')
 ax.set_ylabel('Total reward')
-plt.savefig(out + 'blablbla.png')   # Reward per episode with Q-learning algorithm
+plt.savefig(out + 'Rewardperepisode.png')   # Reward per episode with Q-learning algorithm
