@@ -22,7 +22,7 @@ El repositorio se organiza según la siguiente estructura:
     
   - RL-T tuning.py permite el entrenamiento del modelo de AR implementando la metodología de ajuste de hiperparámetros del algoritmo de Q-learning y empleando los dos modelos de función de recompensa comparados en este proyecto.
     
-  - RL-P.py permite la extracci´on del régimen de dosificación y las trayectorias farmacocinéticas de cada paciente siguiendo la política óptima π∗ a partir de la tabla-Q derivada del entrenamiento y generada por el script RL-T.py.
+  - RL-P.py permite la extracción del régimen de dosificación y las trayectorias farmacocinéticas de cada paciente siguiendo la política óptima π∗ a partir de la tabla-Q derivada del entrenamiento y generada por el script RL-T.py.
     
   - RL-P tuning.ipynb permite la extracción del régimen de dosificación y las trayectorias de los pacientes para todas las configuraciones de hiperparámetros y modelos de función de recompensas empleados en el contexto de este trabajo.
     
