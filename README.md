@@ -8,7 +8,7 @@ El repositorio se organiza según la siguiente estructura:
   
 - Directorio Selección variables y estratificación: Contiene los siguientes archivos:
   
-  -  RLM.Rmd para el diseño del modelo de regresi´on lineal m´ultiple y la implementaciónn del método stepwise en dirección backwards.   Permite la selección de parámetros más correlacionados con el resultado farmacocinético en el séptimo día.
+  -  RLM.Rmd para el diseño del modelo de regresión lineal múltiple y la implementaciónn del método stepwise en dirección backwards.   Permite la selección de parámetros más correlacionados con el resultado farmacocinético en el séptimo día.
     
   -  Estratificacion_poblacional.ipynb permite la creaci´on de los subtipos de pacientes según las variables seleccionadas al ejecutar el archivo anterior
 
